@@ -16,8 +16,8 @@
     </form>
     <table>
     <tr>
-        <td><input type="button" value="C" onclick="clean()"></td>
-        <td><input type="button" value="<" onclick="back()"></td>
+        <td><input type="button" value="C" id="clean"></td>
+        <td><input type="button" value="<" id="back"></td>
         <td><input type="button" value="/" onclick="insert('/')"></td>
         <td><input type="button" value="X" onclick="insert('*')"></td>
     </tr>
@@ -37,7 +37,7 @@
         <td><input type="button" value="7" onclick="insert(7)"></td>
         <td><input type="button" value="8" onclick="insert(8)"></td>
         <td><input type="button" value="9" onclick="insert(9)"></td>
-        <td rowspan="2"><input id="button2" type="button" value="=" onclick="equals()"></td>
+        <td rowspan="2"><input id="button2" type="button" value="="></td>
     </tr>
     <tr>
         <td colspan="2"><input id="button1" value="0" type="button" onclick="insert(0)"></td>
