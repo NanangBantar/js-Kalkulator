@@ -1,0 +1,31 @@
+*{
+    margin:1px;
+    padding:3px;
+}
+
+.tv_kal{
+    width:193px;  
+    height: 20px;  
+}
+
+input[type=button]{
+width:40px;
+height:35px;
+cursor: pointer;
+font-weight: bold;
+}
+
+#button1{
+    height:35px;
+    width:95px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#button2{
+    height:80px;
+    width:40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
