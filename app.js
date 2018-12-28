@@ -2,22 +2,24 @@ function insert(num){
     document.form_kal.tv_kal.value = document.form_kal.tv_kal.value+num;
 }
 
-function equals(){
-    var exp =  document.form_kal.tv_kal.value;
-
+const e = document.getElementById("button2");
+e.addEventListener('click',function(){
+    let exp =  document.form_kal.tv_kal.value;
     if(exp){
-    document.form_kal.tv_kal.value =eval(exp);
-    } 
-}
+        document.form_kal.tv_kal.value = eval(exp);
+           }
+})
 
-function clean(){
+const c = document.getElementById("clean");
+c.addEventListener('click',function(){
     document.form_kal.tv_kal.value ="";
-}
+})
 
-function back(){
-    var exp =  document.form_kal.tv_kal.value;
+const b = document.getElementById("back");
+b.addEventListener('click',function(){
+    let exp =  document.form_kal.tv_kal.value;    
     document.form_kal.tv_kal.value = exp.substring(0,exp.length-1);
-}
+})
 
 function isNumberKey(evt)
 {
